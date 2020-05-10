@@ -18,9 +18,9 @@ func _ready():
 	
 	# get a value from an existing dictionary
 	var getValue = emptyDict[4] # returns an array [1,2,3,4] 
-	var getAnotherValue = emptyDict["key"] # returns  string"value"
+	var getAnotherValue = emptyDict["key"] # returns  string "value"
 	
-	# print to see what we are dictionary values are
+	# print to see what the dictionary values are
 	print("getValue: ", getValue)
 	print("getAnotherValue: ", getAnotherValue)
 	
