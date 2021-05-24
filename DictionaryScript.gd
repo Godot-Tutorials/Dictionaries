@@ -3,7 +3,7 @@ extends Node
 # create empty dictionary
 var emptyDict = {}
 
-#create dictionary, int and string allowed for keys
+# create dictionary, int and string allowed for keys
 var dictionary = {
 	1: "Hi",
 	"key": "World"
@@ -39,8 +39,8 @@ func _ready():
 	print(dict1 == dict2) # false
 	print(dict1.hash() == dict2.hash()) # true
 	
-	# Clear an entire dictionary
+	# clear an entire dictionary
 	dict1.clear()
 	
-	#Remove a specific key from a dictionary
+	# remove a specific key from a dictionary
 	dict3.erase("key")
